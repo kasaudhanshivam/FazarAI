@@ -193,7 +193,10 @@ const Builder = ({ user, setUser }) => {
     return (
       <EmbedCode
         assistant={assistant}
-        onEdit={() => setUser({ ...user, isSetupComplete: false })}
+        onEdit={() => {
+          setSaved(false);
+          setUser({ ...user, isSetupComplete: false });
+        }}
       />
     );
   }

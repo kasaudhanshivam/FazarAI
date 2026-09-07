@@ -277,10 +277,10 @@
     };
 
 
-    console.log(
-      "Fazar AI: configuration loaded",
-      state.config
-    );
+    // console.log(
+    //   "Fazar AI: configuration loaded",
+    //   state.config
+    // );
 
 
     return state.config;

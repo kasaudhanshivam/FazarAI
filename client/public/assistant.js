@@ -1127,7 +1127,7 @@
        * setting doesn't break recognition.
        */
       recognition.lang =
-        "en-US";
+        "en-IN";
 
 
       /* ------------------------------------------------------------------ */

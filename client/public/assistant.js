@@ -1126,8 +1126,16 @@
        * Keep fixed so browser language
        * setting doesn't break recognition.
        */
-      recognition.lang =
-        "en-IN";
+      recognition.lang = "en-IN";
+
+
+      console.log(
+        window.speechSynthesis
+          .getVoices()
+          .filter(function (voice) {
+            return voice.lang === "en-IN";
+          })
+      );
 
 
       /* ------------------------------------------------------------------ */

@@ -5,8 +5,12 @@
   /* CONFIG                                                                    */
   /* ------------------------------------------------------------------------ */
 
-  var API_BASE_URL = "http://localhost:8000";
-  var CSS_URL = "http://localhost:5173/assistant.css";
+  var API_BASE_URL = "https://fazarai.onrender.com";
+  // var API_BASE_URL = "http://localhost:8000"; // local
+
+
+  var CSS_URL = "https://fazarai.shivamkasaudhan.dev/assistant.css";
+  // var CSS_URL = "http://localhost:5173/assistant.css"; // local
 
   var script = document.currentScript;
 

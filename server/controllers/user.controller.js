@@ -51,7 +51,7 @@ export const saveAssistant = async (req, res) => {
 
         await user.save();
 
-        console.log(user);
+        // console.log(user);
 
         return res.status(200).json({message: "Assistant Saved!", user});
         

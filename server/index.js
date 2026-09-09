@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(cookieParser())
 const privateCors = (cors({
     // origin: "http://localhost:5173", // for local
-    origin: "https://fazarai.shivamkasaudhan.dev",
+    origin: ["https://fazarai.shivamkasaudhan.dev", "https://falconai-lilac.vercel.app"],
     credentials: true
 }))
 
